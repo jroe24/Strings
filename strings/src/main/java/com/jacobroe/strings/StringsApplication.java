@@ -15,12 +15,12 @@ public class StringsApplication {
 	}
     
     @RequestMapping("/")
-    public String hello() { 
+    public String helloClient() { 
         return "Hello client! How are you doing?";
     }
 
     @RequestMapping("/random")
-    public String random() { 
+    public String randomMap() { 
         return "Spring Boot is great! So easy to just respond with strings";
     }
 }
